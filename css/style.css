@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Arial, Hiragino Sans, Meiryo, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: 500px;
+    width: 100vw;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+}
+
+/* mainvisual */
+#mainvisual {
+    background: url(../img/avocado-g2c798863b_1920.jpg)
+    center / cover;
+    min-height: 100vh;
+}
+
+/* recipe */
+#recipe {
+    text-align: center;
+    margin: 85px 0;
+}
+#recipe h2 {
+    font-size: 2rem;
+}
+.recipe_text {
+    margin: 20px;
+}
+.recipe_list {
+    display: flex;
+}
+.recipe_link {
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 70px;
+    color: black;
+}
+.recipe_link a {
+    border: solid 1px;
+    padding: 20px 60px;
+}
+
+/* footer */
+#footer {
+    margin-top: 120px;
+}
+#footer p {
+    text-align: center;
+    font-size: 0.975rem;
+    margin: 20px;
+}
+.footer_list {
+    display: flex;
+    justify-content: center;
+    font-size: 0.775rem;
+    text-align: center;
+    color: black;
+}
+.footer_list li {
+    margin: 0px 10px;
+}
+
+@media screen and (max-width: 834px) {
+    .recipe_list {
+        display: block;
+        font-size: 0;
+    }
+}
